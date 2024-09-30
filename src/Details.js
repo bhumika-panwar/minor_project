@@ -35,10 +35,10 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "bhumika panwar",
+  tagline: "Pushing boundaries, expanding possibilities.",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `student at SHGC pursuing BCA.`,
 };
 
 // Enter your Social Media URLs here
@@ -52,43 +52,43 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Internship",
+    Company: `In-House(VIA COLLEGE)`,
+    Location: "Bhopal",
+    Type: "Internship",
+    Duration: "Sep 2022 - Dec 2022",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `In-House(VIA COLLEGE)`,
+    Location: "Bhopal",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Sep 2023 - Dec 2023",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `In-House(VIA COLLEGE)`,
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Location: "Bhopal",
+    Duration: "Aug 2024 - Sept 2024",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Student",
+    Company: "Saint Josephs Convent Sr. Sec. School",
+    Location: "Bhopal",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2010 - 2022",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Bachelor in Computer Application",
+    Company: `Sant Hirdaram Girls College`,
+    Location: "Bhopal",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Aug 2022 - Present",
   },
 ];
 
@@ -113,7 +113,7 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Project 1",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
@@ -170,6 +170,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "rajeshsinghpanwar754@gmail.com",
+  phone: "+91 7987330420",
 };
