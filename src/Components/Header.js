@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { logos, socialMediaUrl } from "../Details";
+import {  logos, socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -110,7 +110,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    //</header>
   );
 }
 

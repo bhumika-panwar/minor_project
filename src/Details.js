@@ -7,17 +7,17 @@ import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
+
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
+
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
+
 import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
@@ -44,7 +44,7 @@ export const personalDetails = {
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  github: "https://github.com/bhumika-panwar",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -53,21 +53,21 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Internship",
-    Company: `In-House(VIA COLLEGE)`,
+    Company: `SHGC (In House - Internship)`,
     Location: "Bhopal",
     Type: "Internship",
     Duration: "Sep 2022 - Dec 2022",
   },
   {
     Position: "Internship",
-    Company: `In-House(VIA COLLEGE)`,
+    Company: `SHGC (In House - Internship)`,
     Location: "Bhopal",
     Type: "Internship",
     Duration: "Sep 2023 - Dec 2023",
   },
   {
     Position: "Internship",
-    Company: `In-House(VIA COLLEGE)`,
+    Company: `SHGC (In House - Internship)`,
     Type: "Internship",
     Location: "Bhopal",
     Duration: "Aug 2024 - Sept 2024",
@@ -77,7 +77,7 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Student",
+    Position: "High School Graduation",
     Company: "Saint Josephs Convent Sr. Sec. School",
     Location: "Bhopal",
     Type: "Full Time",
@@ -98,12 +98,12 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
-  redux: redux,
-  sass: sass,
+  //redux: redux,
+  //sass: sass,
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
-  postman: postman,
+  //postman: postman,
   npm: npm,
   git: git,
   github: github,
@@ -113,56 +113,64 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project 1",
+    title: "SPA for eLearning Platform",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `A comprehensive eLearning platform for computer, electronics, and mathamatics students, 
+    offering interactive courses, hands-on study materials and expert tutorials. 
+  `,
+    techstack: "ReactJS, Nodejs, Bootstrap",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
+    title: "Random Quotes project",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Random Quotes project delivers a daily dose of inspiration and wisdom through a curated collection of diverse quotes. 
+    Each quote is designed to uplift and provoke thought, 
+    making it a perfect companion for moments of reflection.`,
+    techstack: "Django, python, HTML/CSS, ",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Flask Arduino IoT Project - (FlaskLED)",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Flask Arduino IoT Project allows users to control red, yellow, and green lights 
+    through a web interface and mobile devices on the same network. 
+    It combines Flask for backend management with Arduino for real-time light control, 
+    showcasing a practical application of IoT in smart device automation.`,
+    techstack: "Flask, Arduino, HTML/CSS",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
+    title: "Flask CRUD Project",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Flask CRUD Project features a student management system that allows users to create, read, update, and delete student records. 
+    It includes a form for student data entry and generates PDFs for easy record sharing. 
+    This project demonstrates essential web development skills while integrating form handling and PDF generation.`,
+    techstack: "Flask, Bootstrap, WTForm,WTForm.validators, HTML/CSS, JavaScript, ",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 5",
+    title: "SPA using Bootstrap Framework",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Single Page Application (SPA) built with Bootstrap includes components like navigation bars, modals, and cards for 
+    a seamless user experience. It utilizes the grid system for responsive layouts, ensuring optimal performance on 
+    all devices. This project showcases modern web development with an emphasis on interactivity and design.`,
+    techstack: "HTML/CSS, JavaScript, Bootstrap",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 6",
+    title: "Resume Builder App",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `The Resume Builder App allows users to create professional resumes effortlessly, 
+    offering a user-friendly interface for inputting personal details and experiences. 
+    Once completed, the app generates a polished PDF version of the resume for easy downloading and sharing. 
+    This tool simplifies the resume creation process, ensuring users can present their qualifications effectively.`,
+    techstack: "HTML/CSS, JavaScript, jsPDFlibrary, ",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },

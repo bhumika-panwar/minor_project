@@ -6,7 +6,7 @@ function Footer() {
         Designed and Coded by{" "}
         <a
           className="font-medium"
-          href="https://pavanmg.in"
+          href="https://github.com/bhumika-panwar"
           target="_blank"
           rel="noreferrer noopener"
         >
