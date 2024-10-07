@@ -56,14 +56,14 @@ export const workDetails = [
     Company: `SHGC (In House - Internship)`,
     Location: "Bhopal",
     Type: "Internship",
-    Duration: "Sep 2022 - Dec 2022",
+    Duration: "Nov 2022 - Jan 2022",
   },
   {
     Position: "Internship",
     Company: `SHGC (In House - Internship)`,
     Location: "Bhopal",
     Type: "Internship",
-    Duration: "Sep 2023 - Dec 2023",
+    Duration: "Jul 2023 - Sept 2023",
   },
   {
     Position: "Internship",
@@ -130,7 +130,7 @@ export const projectDetails = [
     making it a perfect companion for moments of reflection.`,
     techstack: "Django, python, HTML/CSS, ",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/bhumika-panwar/Django-RandomQuotes-Project",
   },
   {
     title: "Flask Arduino IoT Project - (FlaskLED)",
@@ -141,7 +141,7 @@ export const projectDetails = [
     showcasing a practical application of IoT in smart device automation.`,
     techstack: "Flask, Arduino, HTML/CSS",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/bhumika-panwar/flask-LED-project",
   },
   {
     title: "Flask CRUD Project",
@@ -151,7 +151,7 @@ export const projectDetails = [
     This project demonstrates essential web development skills while integrating form handling and PDF generation.`,
     techstack: "Flask, Bootstrap, WTForm,WTForm.validators, HTML/CSS, JavaScript, ",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/bhumika-panwar/flask-CRUD-project",
   },
   {
     title: "SPA using Bootstrap Framework",
@@ -172,7 +172,7 @@ export const projectDetails = [
     This tool simplifies the resume creation process, ensuring users can present their qualifications effectively.`,
     techstack: "HTML/CSS, JavaScript, jsPDFlibrary, ",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/bhumika-panwar/webtech/tree/main/bp-20-aug-2024",
   },
 ];
 
