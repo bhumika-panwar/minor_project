@@ -1,7 +1,7 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+//import logogradient from "./assets/logo.svg";
+import logo from "./assets/logo.jpg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
@@ -28,11 +28,13 @@ import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
-export const logos = {
+/*export const logos = {
   logogradient: logogradient,
-  logo: logo,
+logo: logo,
+};*/
+export const logos = {
+  logo: logo
 };
-
 // Enter your Personal Details here
 export const personalDetails = {
   name: "bhumika panwar",
@@ -52,21 +54,21 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Internship",
+    Position: "Internship-on-Python",
     Company: `SHGC (In House - Internship)`,
     Location: "Bhopal",
     Type: "Internship",
     Duration: "Nov 2022 - Jan 2022",
   },
   {
-    Position: "Internship",
+    Position: "Internship-on-Advance-Python",
     Company: `SHGC (In House - Internship)`,
     Location: "Bhopal",
     Type: "Internship",
     Duration: "Jul 2023 - Sept 2023",
   },
   {
-    Position: "Internship",
+    Position: "Internship-on-Web technologies",
     Company: `SHGC (In House - Internship)`,
     Type: "Internship",
     Location: "Bhopal",
